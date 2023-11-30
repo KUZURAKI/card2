@@ -1,0 +1,31 @@
+.text1 {
+    margin-top: 35px;
+}
+
+.card-body {
+    box-shadow: 10px 10px 100px #888888;
+}
+
+.form-control1 {
+    height: 185px;
+    width: 460px;
+    display: inline-block;
+    transform: none;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    resize: both;
+    border-radius: 5px;
+}
+
+/* Добавляем стиль для закрашивания и сделки неактивными ячеек серым цветом */
+.disabled-time {
+    background-color: #d3d3d3; /* Серый цвет для неактивных ячеек */
+    pointer-events: none; /* Делаем неактивные ячейки неактивными для событий мыши */
+}
+
+/* Добавляем стиль для закрашивания и сделки неактивными ячеек даты серым цветом */
+.disabled-date {
+    background-color: #d3d3d3; /* Серый цвет для неактивных ячеек */
+    pointer-events: none; /* Делаем неактивные ячейки неактивными для событий мыши */
+}
+
